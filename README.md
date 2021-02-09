@@ -19,6 +19,7 @@ Desenvolva uma API Rest de consulta de cidades do Brasil com dados comparativos.
 - Intellj IDEA Community Edition.
 - Controle de versão GIT.
 - PostgreSQL Driver
+- Postman
 
 
 
@@ -30,6 +31,14 @@ Desenvolva uma API Rest de consulta de cidades do Brasil com dados comparativos.
 - Spring Data JPA
 - PostgreSQL Driver
 - Hibernate Types 52
+
+
+
+**Base de dados para teste:**
+
+[sql-paises-estados-cidades](https://github.com/chinnonsantos/sql-paises-estados-cidades)
+
+
 
 Abaixo, seguem links sobre o projeto :
 
