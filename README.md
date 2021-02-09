@@ -18,7 +18,7 @@ Desenvolva uma API Rest de consulta de cidades do Brasil com dados comparativos.
 - Maven 3.6.3 ou versões superiores.
 - Intellj IDEA Community Edition.
 - Controle de versão GIT.
-- PostgreSQL Driver
+- PostgreSQL
 - Postman
 
 
