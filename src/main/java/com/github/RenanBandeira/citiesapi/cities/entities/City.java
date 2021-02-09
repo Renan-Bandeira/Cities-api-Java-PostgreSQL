@@ -1,3 +1,4 @@
+/*
 package com.github.RenanBandeira.citiesapi.cities.entities;
 
 import javax.persistence.Column;
@@ -12,9 +13,11 @@ import org.springframework.data.geo.Point;
 
 @Entity
 @Table(name = "cidade")
-@TypeDefs(value = {
+*/
+/*@TypeDefs(value = {
         @TypeDef(name = "point", typeClass = PointType.class)
-})
+})*//*
+
 public class City {
 
     @Id
@@ -39,7 +42,8 @@ public class City {
     public City() {
     }
 
-    /**
+    */
+/* *
      *
      * @param id
      * @param name
@@ -47,7 +51,8 @@ public class City {
      * @param ibge
      * @param geolocation
      * @param location
-     */
+     *//*
+
     public City(final Long id, final String name, final Integer uf, final Integer ibge,
                 final String geolocation, final Point location) {
         this.id = id;
@@ -81,4 +86,4 @@ public class City {
     public Point getLocation() {
         return location;
     }
-}
+}*/
