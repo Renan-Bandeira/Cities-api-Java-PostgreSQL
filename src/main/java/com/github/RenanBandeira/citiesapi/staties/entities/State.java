@@ -1,7 +1,6 @@
 package com.github.RenanBandeira.citiesapi.staties.entities;
 
 import com.github.RenanBandeira.citiesapi.countries.entities.Country;
-//import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
 import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -35,8 +34,8 @@ public class State {
     private Integer ibge;
 
   //1st
-  @Column(name = "pais")
-  private Integer countryId;
+  /*@Column(name = "pais")
+  private Integer countryId;*/
 
     // 2nd - @ManyToOne
     @ManyToOne
@@ -51,24 +50,6 @@ public class State {
     public State() {
     }
 
-    /**
-     *
-     * @param id
-     * @param name
-     * @param uf
-     * @param ibge
-     * @param country
-     * @param ddd
-     */
-    public State(Long id, String name, String uf, Integer ibge,
-                 Country country, List<Integer> ddd) {
-        this.id = id;
-        this.name = name;
-        this.uf = uf;
-        this.ibge = ibge;
-        this.country = country;
-        this.ddd = ddd;
-    }
 
     public Long getId() {
         return id;
@@ -90,11 +71,11 @@ public class State {
         return ddd;
     }
 
- /*   public Country getCountry() {
+    public Country getCountry() {
         return country;
-    }*/
+    }
 
-  public Integer getCountryId() {
+ /* public Integer getCountryId() {
       return countryId;
-  }
+  }*/
 }
