@@ -1,7 +1,7 @@
-package com.github.RenanBandeira.citiesapi;
+package com.github.RenanBandeira.citiesapi.countries.resource;
 
-import com.github.RenanBandeira.citiesapi.countries.Country;
-import com.github.RenanBandeira.citiesapi.repository.CountryRepository;
+import com.github.RenanBandeira.citiesapi.countries.entities.Country;
+import com.github.RenanBandeira.citiesapi.countries.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

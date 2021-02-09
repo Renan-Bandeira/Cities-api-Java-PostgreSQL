@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.citiesapi.countries;
+package com.github.RenanBandeira.citiesapi.countries.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
