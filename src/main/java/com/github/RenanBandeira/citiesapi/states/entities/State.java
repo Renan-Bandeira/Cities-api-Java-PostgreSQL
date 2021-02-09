@@ -1,4 +1,4 @@
-package com.github.RenanBandeira.citiesapi.staties.entities;
+package com.github.RenanBandeira.citiesapi.states.entities;
 
 import com.github.RenanBandeira.citiesapi.countries.entities.Country;
 import java.util.List;
